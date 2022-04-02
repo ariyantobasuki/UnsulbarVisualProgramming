@@ -1,0 +1,8 @@
+class Variable:
+   def init(self, Nama, Nim, Panggilan):
+      self.nama      = Nama           # public
+      self.nim       = Alias          # private
+      self.panggilan = Panggilan
+
+Variable = ("ARIYANTO BASUKI", "D0219504", "ariyanto")
+print(Variable)
